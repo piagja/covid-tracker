@@ -54,6 +54,3 @@ npm start
 [Mathroid](https://covid19.mathdro.id/api/)
 
 Thanks for John Hopkins University CSSE for maintain the COVID-19 API
-
-
->>>>>>> 248045361dbbcf842dc92b6f001af00c2f2a03d9
