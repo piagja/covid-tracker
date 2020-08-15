@@ -33,7 +33,7 @@ const Footer = () => {
     },
     {
       SocialMediaName: 'Facebook',
-      ProfileLink: 'https://www.facebook.com/sathananthan.sabesan',
+      ProfileLink: 'https://www.facebook.com/piagja',
       fontAwesomeIconName: 'fab fa-facebook-f',
       OnMouseOverColor: '#1877f2'
     }
@@ -53,7 +53,7 @@ const Footer = () => {
         >
           Criado por {' '}
           <a
-            href='https://github.com/sabesansathananthan/covid-19-tracker'
+            href='https://github.com/piagja/covid-tracker'
             target='_blank'
             rel='noopener noreferrer'
             style={{ color: 'rgba(0,0,255,0.6)', textDecoration: 'none' }}
