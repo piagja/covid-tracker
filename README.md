@@ -1,6 +1,6 @@
 # Covid Data Tracker
 
-**This application was created to a practice objective. This is a simple COVID-19 tracker
+**This application was created to a practice objective. This is a simple COVID-19 tracker**
 
 Libs:
 ```
