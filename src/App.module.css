@@ -14,10 +14,25 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
+/* creating a rotating coronavirus image */
 .image {
-  width: 370px;
-  margin-top: 50px;
+  width: 280px;
+  margin-top: 10px;
+  animation: rotation 8s infinite linear;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* end for rotating coronavirus image */
+
 @media (max-width: 770px) {
   .container {
     margin: 0 10%;
@@ -29,8 +44,4 @@ body {
 
 hr {
   border: 1px solid rgba(0,0,0, 0.2);
-}
-
-.teste {
-  margin: 10000px;
 }
