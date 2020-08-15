@@ -1,4 +1,4 @@
-# COVID-19 Tracker
+# [COVID-19 Tracker](https://piagja.github.io/covid-tracker)
 
 This tracker brings information about infected, recovered, deaths and actives cases of COVID-19
 This project was made for a practice purpose!
