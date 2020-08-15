@@ -2,7 +2,7 @@ import React from "react";
 import { Cards, Chart, CountryPicker } from "./Components";
 import styles from "./App.module.css";
 import { fetchData } from "./api";
-import coronaImage from "./images/image.png";
+import coronaImage from "./Images/covid19.svg";
 
 class App extends React.Component {
   state = {
@@ -22,15 +22,8 @@ class App extends React.Component {
     return (
       <div className={styles.container}>
         <img className={styles.image} src={coronaImage} alt="COVID-19" />
-        <br />
-        <text>
-          <b>Global and Country Wise Cases of Corona Virus</b>
-        </text>
-        <br />
-        <text>
-          <i>(For a particular select a Country from below)</i>
-        </text>
-        <br />
+          <h3>Casos Globais e Nacionais de COVID-19</h3>
+          <small>(Para um país específico, selecione abaixo)</small>
         <br />
         <Cards data={data} country={country} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
