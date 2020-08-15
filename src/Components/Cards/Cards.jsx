@@ -52,26 +52,33 @@ const Cards = ({
             style={{ margin: '0px 23.675px', padding: '12px' }}
           >
             <CardContent>
-              <Typography color='textPrimary' gutterBottom>
-                <b>{detail.text}</b>
-              </Typography>
-              <Typography variant='h5'>
-                <CountUp
-                  start={0}
-                  end={detail.value}
-                  duration={2}
-                  separator='. '
-                />
-              </Typography>
-              <Typography color='textPrimary'>Ultima atualização em : </Typography>
+              <center>
+                <Typography color='textPrimary' gutterBottom>
+                  <b>{detail.text}</b>
+                </Typography>
+              </center>
+              <center>
+                <Typography variant='h5'>
+                  <CountUp
+                    start={0}
+                    end={detail.value}
+                    duration={2}
+                    separator=','
+                  />
+                </Typography>
+              </center>
+              <br />
+              <Typography color='textPrimary'>Ultima atualização: </Typography>
               <Typography color='textSecondary' variant='body2'>
                 {new Date(lastUpdate).toDateString()}
               </Typography>
               <Typography color='textSecondary' variant='body2'>
                 {new Date(lastUpdate).toLocaleTimeString()}
               </Typography>
+              <br />
               <Typography variant='body2'>{detail.bottomText}</Typography>
-              <Typography color='textPrimary'> {country} </Typography>
+              <hr data-symbol='∞' />
+              <center id='card-country-name'><Typography color='textPrimary'>{country}</Typography></center>
             </CardContent>
           </Grid>
         ))}
